@@ -1,0 +1,9 @@
+type Employee{
+    empId: Int!
+    empName: String!
+    designation: String!
+    salary: Float!
+}
+type Query{
+    getAllEmployee: Employee!
+}
