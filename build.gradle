@@ -17,4 +17,40 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	runtimeOnly 'com.h2database:h2'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	// https://mvnrepository.com/artifact/com.oracle/ojdbc7
+	//compile group: 'com.oracle', name: 'ojdbc7', version: '12.1.0.2'
+	// https://mvnrepository.com/artifact/com.oracle/ojdbc14
+	//compile group: 'com.oracle', name: 'ojdbc14', version: '10.2.0.4.0'
+
+	// https://mvnrepository.com/artifact/mysql/mysql-connector-java
+	compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.19'
+
+
+
+
+	// https://mvnrepository.com/artifact/com.graphql-java-kickstart/graphql-java-tools
+	//compile group: 'com.graphql-java-kickstart', name: 'graphql-java-tools', version: '5.3.3'
+
+	// https://mvnrepository.com/artifact/com.graphql-java-kickstart/graphql-spring-boot-starter
+	//compile group: 'com.graphql-java-kickstart', name: 'graphql-spring-boot-starter', version: '5.0.3'
+
+	// https://mvnrepository.com/artifact/com.graphql-java-kickstart/graphql-spring-boot-starter
+	//compile group: 'com.graphql-java-kickstart', name: 'graphiql-spring-boot-starter', version: '5.0.3'
+
+	//implementation 'com.graphql-java-kickstart:graphql-spring-boot-starter:6.0.1'
+	//runtimeOnly 'com.graphql-java-kickstart:graphiql-spring-boot-starter:6.0.1'
+
+	// https://mvnrepository.com/artifact/com.graphql-java/graphql-spring-boot-starter
+	compile group: 'com.graphql-java', name: 'graphql-spring-boot-starter', version: '5.0.2'
+
+	compile group: 'com.graphql-java', name: 'graphiql-spring-boot-starter', version: '5.0.2'
+
+	// https://mvnrepository.com/artifact/com.graphql-java/graphql-java-tools
+	compile group: 'com.graphql-java', name: 'graphql-java-tools', version: '5.2.4'
+
+
+
+
+
 }
